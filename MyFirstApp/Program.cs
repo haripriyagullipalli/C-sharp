@@ -24,13 +24,14 @@ class WeatherSimulator
         }
 
 
-        System.Console.WriteLine("the average is " + AverageTemperature(temparatures, days));
+        System.Console.WriteLine("the average is " + AverageTemperature(temparatures));
+        System.Console.WriteLine($"the maximum is {temparatures.Max()} and minimum {temparatures.Min()}");
     }
 
-    static double AverageTemperature(int[] temperatures, int days)
+    static double AverageTemperature(int[] temperatures)
     {
         int sum = temperatures.Aggregate(0, (initial, current) => initial + current);
-        return sum / days;
+        return sum / temperatures.Length;
     }
 }
 
