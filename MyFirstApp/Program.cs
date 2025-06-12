@@ -4,7 +4,6 @@ using System.Runtime.Intrinsics.Arm;
 
 class WeatherSimulator
 {
-
     public static void Main()
     {
 
@@ -22,7 +21,6 @@ class WeatherSimulator
             weatherConditions[i] = conditions[random.Next(conditions.Length)];
             System.Console.WriteLine("temperature " + temparatures[i] + "conditon i " + weatherConditions[i]);
         }
-
 
         System.Console.WriteLine("the average is " + AverageTemperature(temparatures));
         System.Console.WriteLine($"the maximum is {temparatures.Max()} and minimum {temparatures.Min()}");
