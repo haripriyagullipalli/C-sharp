@@ -1,0 +1,45 @@
+
+# Build results
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# ASP.NET temporary files
+*.dbmdl
+*.dbproj.schemaview
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+
+# Dotnet artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider/JetBrains
+.idea/
+*.sln.iml
+
+# Logs
+*.log
+
+# Others
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
